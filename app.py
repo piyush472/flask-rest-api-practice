@@ -1,4 +1,4 @@
-from flask import Flask,request,jsonify
+'''from flask import Flask,request,jsonify
 app=Flask(__name__)
 notes=[]
 @app.route("/create_note",methods=["POST"])
@@ -24,4 +24,4 @@ def delete_note(id):
             notes.remove(note)
             return jsonify({"message": "note deleted"})
 
-    return jsonify({"message": "note not found"})
+    return jsonify({"message": "note not found"})'''
